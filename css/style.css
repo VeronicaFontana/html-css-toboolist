@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+/* HEADER*/
+header .logo{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  padding-left: 15px;
+}
+
+header .logo img{
+  vertical-align: middle;
+}
+
+header .logo strong{
+  vertical-align: middle;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
