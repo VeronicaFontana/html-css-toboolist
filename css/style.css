@@ -80,6 +80,16 @@ ul{
   list-style: none;
 }
 
+.list-title{
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+.main-list .intern-list-item{
+  padding: 10px;
+}
+
 .box{
   border-radius: 20px;
   padding: 10px;
