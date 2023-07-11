@@ -5,7 +5,9 @@
 }
 
 body{
-  background-color: #434c50;
+  background-color: rgb(218, 224, 224);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER*/
@@ -32,7 +34,6 @@ header .logo strong{
   width: 1200px;
   height: fit-content;
   margin: 20px auto ;
-  padding-inline: 40px;
   padding-block: 10px;
 }
 
@@ -42,12 +43,11 @@ button{
 }
 
 .main-buttons{
-  padding-top: 10px;
+  padding-block: 10px;
+  border-bottom: 2px solid rgb(218, 224, 224);
+  padding-inline: 40px;
 }
 
-hr{
-  margin-top: 7px;
-}
 
 .Task{
   background-color: #47ADF1;
@@ -57,11 +57,26 @@ hr{
 
 .Section{
   background-color: white;
-  border-color: #F6F8F9;
+  border-color: rgb(218, 224, 224);
+  color: rgb(218, 224, 224);
+}
+
+ul{
+  list-style: none;
 }
 
 .main-list{
   padding-top: 10px;
+  padding-inline: 40px;
+}
+
+.list-title{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.main-list .intern-list-item{
+  padding: 10px;
 }
 
 .arrow {
@@ -76,18 +91,12 @@ hr{
   -webkit-transform: rotate(45deg);
 }
 
-ul{
-  list-style: none;
+.xmark-color{
+  color: red;
 }
 
-.list-title{
-  margin-top: 20px;
-  font-size: 20px;
-  
-}
-
-.main-list .intern-list-item{
-  padding: 10px;
+.check-color{
+  color: greenyellow;
 }
 
 .box{
@@ -121,4 +130,5 @@ ul{
 .Mobile{
   background-color: #F29E33;
 }
+
 
