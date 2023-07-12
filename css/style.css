@@ -31,7 +31,7 @@ header .logo strong{
 .container{
   background-color: white;
   border-radius: 3px;
-  width: 1200px;
+  width: 60%;
   height: fit-content;
   margin: 20px auto ;
   padding-block: 10px;
@@ -40,6 +40,8 @@ header .logo strong{
 button{
   border-radius: 5px;
   padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .main-buttons{
@@ -48,16 +50,15 @@ button{
   padding-inline: 40px;
 }
 
-
-.Task{
+.Task-button{
   background-color: #47ADF1;
-  border-color: #47ADF1;
+  border: 1px solid #47ADF1;
   color: #F6F8F9;
 }
 
-.Section{
+.Section-button{
   background-color: white;
-  border-color: rgb(218, 224, 224);
+  border: 1px solid rgb(218, 224, 224);
   color: rgb(218, 224, 224);
 }
 
